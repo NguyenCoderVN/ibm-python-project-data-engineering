@@ -1,83 +1,43 @@
-<details>
-  <summary>Click to view the full setup script</summary>
+# ETL Pipeline with Python
 
-  ```bash
-  # --- 1. Download and Extract Data ---
-  echo "Downloading and extracting source data..."
-  wget [https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip)
-  unzip source.zip
+This project demonstrates a simple **Extract, Transform, Load (ETL)** process using Python and Pandas.  
+The script (`etl_code.py`) extracts data from CSV, JSON, and XML files, transforms it into metric units, and loads the results into a CSV file.  
+Progress is logged in a text file.
 
-  # --- 2. Install Python 3.13 ---
-  echo "Updating package lists and installing Python 3.13..."
-  sudo apt update
-  sudo apt install software-properties-common -y
-  sudo add-apt-repository ppa:deadsnakes/ppa -y
-  sudo apt update
-  sudo apt install python3.13 -y
+---
 
-  # --- 3. Install Required Libraries ---
-  echo "Installing pandas library for Python 3.13..."
-  sudo python3.13 -m pip install pandas
+## 📦 Prerequisites
 
-  # --- 4. Run the Code ---
-  echo "Running the ETL script and showing the first 5 lines of output..."
-  python3.13 etl_code.py | head -5
+- Ubuntu / Debian-based system  
+- Python **3.13**  
+- `pip` for Python 3.13  
+- `pandas` library  
 
-  echo "Script finished."
-</details>
+---
 
 <details>
-  <summary>Click to view the full setup script</summary>
+  <summary><h2>1️⃣ Download and Extract Data</h2></summary>
 
   ```bash
-  # --- 1. Download and Extract Data ---
-  echo "Downloading and extracting source data..."
-  wget [https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip)
+  wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
   unzip source.zip
 
-  # --- 2. Install Python 3.13 ---
-  echo "Updating package lists and installing Python 3.13..."
-  sudo apt update
-  sudo apt install software-properties-common -y
-  sudo add-apt-repository ppa:deadsnakes/ppa -y
-  sudo apt update
-  sudo apt install python3.13 -y
+</details> <details> <summary><h2>2️⃣ Install Python 3.13 and pandas</h2></summary>
 
-  # --- 3. Install Required Libraries ---
-  echo "Installing pandas library for Python 3.13..."
-  sudo python3.13 -m pip install pandas
+sudo apt update
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt update
+sudo apt install python3.13 -y
 
-  # --- 4. Run the Code ---
-  echo "Running the ETL script and showing the first 5 lines of output..."
-  python3.13 etl_code.py | head -5
+sudo python3.13 -m pip install pandas
 
-  echo "Script finished."
-</details>
+</details> <details> <summary><h2>3️⃣ Run ETL Script</h2></summary>
 
-<details>
-  <summary>Click to view the full setup script</summary>
+# Run the ETL job
+python3.13 etl_code.py
 
-  ```bash
-  # --- 1. Download and Extract Data ---
-  echo "Downloading and extracting source data..."
-  wget [https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip)
-  unzip source.zip
+# Preview only first 5 lines of the output
+python3.13 etl_code.py | head -5
 
-  # --- 2. Install Python 3.13 ---
-  echo "Updating package lists and installing Python 3.13..."
-  sudo apt update
-  sudo apt install software-properties-common -y
-  sudo add-apt-repository ppa:deadsnakes/ppa -y
-  sudo apt update
-  sudo apt install python3.13 -y
-
-  # --- 3. Install Required Libraries ---
-  echo "Installing pandas library for Python 3.13..."
-  sudo python3.13 -m pip install pandas
-
-  # --- 4. Run the Code ---
-  echo "Running the ETL script and showing the first 5 lines of output..."
-  python3.13 etl_code.py | head -5
-
-  echo "Script finished."
 </details>
