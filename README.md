@@ -1,4 +1,3 @@
-# 1-ETL
 <details>
   <summary><h2>Install Python 3.13 and pandas</h2></summary>
 
@@ -15,13 +14,11 @@
 </details>
 
 
-<details>
-  <summary>Download and Extract Data</summary>
-
-  ```bash
-  # --- 1. Download and Extract Data ---
-  echo "Downloading and extracting source data..."
-  wget [https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip)
-  unzip source.zip
+# 1-ETL Example
+```bash
+# --- 1. Download and Extract Data ---
+echo "Downloading and extracting source data..."
+wget [https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip)
+unzip source.zip
 
   
