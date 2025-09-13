@@ -1,6 +1,7 @@
 <details open>
 <summary>Shopping list</summary>
 
+```bash
 * Vegetables
 * Fruits
 * Fish
@@ -10,6 +11,7 @@
 <details open>
 <summary>Shopping list</summary>
 
+```bash
 * Vegetables
 * Fruits
 * Fish
