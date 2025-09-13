@@ -11,8 +11,7 @@
   echo "Installing pandas library for Python 3.13..."
   sudo python3.13 -m pip install pandas
   ```
-  </summary>
-</details>
+
 
 
 
