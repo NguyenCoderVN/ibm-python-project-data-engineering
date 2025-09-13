@@ -1,43 +1,44 @@
-# ETL Pipeline with Python
+<details>
+<summary>▶︎ Group 1: Python Code</summary>
 
-This project demonstrates a simple **Extract, Transform, Load (ETL)** process using Python and Pandas.  
-The script (`etl_code.py`) extracts data from CSV, JSON, and XML files, transforms it into metric units, and loads the results into a CSV file.  
-Progress is logged in a text file.
+```python
+def hello_world():
+    """This function prints 'Hello, World!'."""
+    print("Hello, World!")
 
----
+# Call the function
+hello_world()
 
-## 📦 Prerequisites
-
-- Ubuntu / Debian-based system  
-- Python **3.13**  
-- `pip` for Python 3.13  
-- `pandas` library  
-
----
+</details>
 
 <details>
-  <summary><h2>1️⃣ Download and Extract Data</h2></summary>
+<summary>▶︎ Group 2: JavaScript Code</summary>
+JavaScript
 
-  ```bash
-  wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
-  unzip source.zip
+// This function displays an alert box
+function greetUser() {
+  alert("Hello from JavaScript!");
+}
 
-</details> <details> <summary><h2>2️⃣ Install Python 3.13 and pandas</h2></summary>
+greetUser();
 
-sudo apt update
-sudo apt install software-properties-common -y
-sudo add-apt-repository ppa:deadsnakes/ppa -y
-sudo apt update
-sudo apt install python3.13 -y
+</details>
 
-sudo python3.13 -m pip install pandas
+<details>
+<summary>▶︎ Group 3: HTML Code</summary>
+HTML
 
-</details> <details> <summary><h2>3️⃣ Run ETL Script</h2></summary>
-
-# Run the ETL job
-python3.13 etl_code.py
-
-# Preview only first 5 lines of the output
-python3.13 etl_code.py | head -5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>This is a simple HTML document.</p>
+</body>
+</html>
 
 </details>
