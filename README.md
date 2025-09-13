@@ -1,5 +1,6 @@
 <details>
-  <summary><h2>Install Python 3.13 and pandas</h2></summary>
+  <summary><h2>Install Python 3.13 and pandas</h2></summary></details>
+  
   ```bash
   echo "Updating package lists and installing Python 3.13..."
   sudo apt update
@@ -11,7 +12,7 @@
   echo "Installing pandas library for Python 3.13..."
   sudo python3.13 -m pip install pandas
   ```
-</details>
+
 
 
 # 1-ETL Example
