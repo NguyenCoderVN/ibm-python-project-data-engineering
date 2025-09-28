@@ -1,0 +1,29 @@
+2025-Sep-27-12-04-36:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-21-42:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-21-51:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-24-13:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-24-57:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-24-58:Data extraction complete. Initiating Transformation process
+2025-Sep-27-13-28-40:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-28-42:Data extraction complete. Initiating Transformation process
+2025-Sep-27-13-41-06:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-41-09:Data extraction complete. Initiating Transformation process
+2025-Sep-27-13-49-59:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-50-02:Data extraction complete. Initiating Transformation process
+2025-Sep-27-13-51-30:Preliminaries complete. Initiating ETL process
+2025-Sep-27-13-51-31:Data extraction complete. Initiating Transformation process
+2025-Sep-27-14-03-34:Preliminaries complete. Initiating ETL process
+2025-Sep-27-14-03-37:Data extraction complete. Initiating Transformation process
+2025-Sep-27-14-06-38:Preliminaries complete. Initiating ETL process
+2025-Sep-27-14-06-40:Data extraction complete. Initiating Transformation process
+2025-Sep-27-14-08-11:Preliminaries complete. Initiating ETL process
+2025-Sep-27-14-08-12:Data extraction complete. Initiating Transformation process
+2025-Sep-27-14-09-24:Preliminaries complete. Initiating ETL process
+2025-Sep-27-14-09-27:Data extraction complete. Initiating Transformation process
+2025-Sep-27-14-10-00:Preliminaries complete. Initiating ETL process
+2025-Sep-27-14-10-01:Data extraction complete. Initiating Transformation process
+2025-Sep-27-14-10-01:Data transformation complete. Initiating loading process
+2025-Sep-27-14-10-01:Data saved to CSV file
+2025-Sep-27-14-10-01:SQL Connection initiated.
+2025-Sep-27-14-10-01:Data loaded to Database as table. Running the query
+2025-Sep-27-14-10-01:Process Complete.
